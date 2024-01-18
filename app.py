@@ -40,8 +40,8 @@ def main():
         st.subheader("这是一个子标题")
         st.text("这是一段文本")
         # 图片与媒体
-        # image = Image.open("任务分配.png")
-        # st.image(image, caption="这是一张图片", use_column_width=True)
+        image = Image.open(r"C:\Users\Tracy\Desktop\2024寒假\科研\01.18Python-streamlit\任务分配.png")
+        st.image(image, caption="这是一张图片", use_column_width=True)
         # 表格
         data = pd.DataFrame({"列1": [1, 2, 3], "列2": [4, 5, 6]})
         st.dataframe(data)
