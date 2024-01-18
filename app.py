@@ -12,7 +12,7 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 # import matplotlib.pyplot as plt
-import plotly.express as px
+# import plotly.express as px
 import numpy as np
 import os
 os.chdir(r'C:\Users\Tracy\Desktop\2024寒假\科研\01.18Python-streamlit') # 设定文件路径
@@ -68,8 +68,8 @@ def main():
         # ax.plot(x, y)
         # st.pyplot(fig)
         # Plotly
-        fig = px.scatter(x=x, y=y, title="Scatter Plot")
-        st.plotly_chart(fig)
+        # fig = px.scatter(x=x, y=y, title="Scatter Plot")
+        # st.plotly_chart(fig)
 
         ## ========================== 高级主题 ========================== ##
         # 自定义主题与样式
